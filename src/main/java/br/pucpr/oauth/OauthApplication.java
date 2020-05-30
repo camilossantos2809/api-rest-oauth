@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class OauthApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(OauthApplication.class, args);
-	}
+    // https://spring.io/guides/tutorials/rest/
+    public static void main(String[] args) {
+        SpringApplication.run(OauthApplication.class, args);
+    }
 
 }
